@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CNC Tool Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "tool_type": { "type": "string", "description": "e.g., endmill, ballnose, drill" },
+    "diameter_mm": { "type": "number" },
+    "flute_count": { "type": "integer" },
+    "length_mm": { "type": "number" },
+    "cutting_length_mm": { "type": "number" },
+    "shank_diameter_mm": { "type": "number" },
+    "material": { "type": "string" },
+    "coating": { "type": "string" },
+    "rpm_recommend": { "type": "number" },
+    "feed_recommend_mm_per_min": { "type": "number" },
+    "stepover_percent": { "type": "number", "minimum": 0, "maximum": 100 },
+    "notes": { "type": "string" },
+    "source": { "type": "string" },
+    "last_modified": { "type": "string", "format": "date-time" }
+  },
+  "required": ["id","name","tool_type","diameter_mm"]
+}
