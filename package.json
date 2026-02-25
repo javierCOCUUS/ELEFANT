@@ -6,6 +6,7 @@
     "dev": "ts-node src/index.ts",
     "convert:vtdb": "ts-node scripts/convertVtdb.ts",
     "export:tools": "ts-node scripts/exportTools.ts",
+    "sync:sheet": "ts-node scripts/syncSheet.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "TEST END MILL 5mm",
+    "tool_type": "endmill",
+    "diameter_mm": "5",
+    "flute_count": "2",
+    "cutting_length_mm": "15",
+    "rpm_recommend": "12000",
+    "feed_recommend_mm_per_min": "1000",
+    "notes": "Added from test sheet"
+  }
+]
