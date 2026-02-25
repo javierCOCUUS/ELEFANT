@@ -4,11 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "convert:vtdb": "ts-node scripts/convertVtdb.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "sql.js": "^1.8.0"
+  },
   "devDependencies": {
-    "typescript": "^5.2.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.0"
   }
 }
