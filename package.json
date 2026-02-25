@@ -1,0 +1,14 @@
+{
+  "name": "ts-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.1"
+  }
+}
