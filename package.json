@@ -7,6 +7,7 @@
     "convert:vtdb": "ts-node scripts/convertVtdb.ts",
     "export:tools": "ts-node scripts/exportTools.ts",
     "sync:sheet": "ts-node scripts/syncSheet.ts",
+    "sync:bidirectional": "ts-node scripts/syncBidirectional.ts",
     "aspire:from-csv": "ts-node scripts/aspireCsvToVtdb.ts",
     "build": "tsc",
     "start": "node dist/index.js"
