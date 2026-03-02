@@ -1,2 +1,6 @@
 node_modules/
 dist/
+tool-database/oauth_client.json
+tool-database/token.json
+tool-database/*.vtdb-shm
+tool-database/*.vtdb-wal

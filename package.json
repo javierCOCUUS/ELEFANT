@@ -4,11 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "convert:vtdb": "ts-node scripts/convertVtdb.ts",
+    "export:tools": "ts-node scripts/exportTools.ts",
+    "sync:sheet": "ts-node scripts/syncSheet.ts",
+    "sync:bidirectional": "ts-node scripts/syncBidirectional.ts",
+    "aspire:from-csv": "ts-node scripts/aspireCsvToVtdb.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
+  "dependencies": {
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "sql.js": "^1.8.0",
+    "googleapis": "^121.0.0",
+    "open": "^9.0.0"
+  },
   "devDependencies": {
-    "typescript": "^5.2.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.0"
   }
 }
