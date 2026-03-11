@@ -1,0 +1,386 @@
+{
+  "data": [
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "",
+      "expressions": {
+        "tool_diameter": "10 mm",
+        "tool_overallLength": "10036 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 10,
+        "HAND": true,
+        "LB": 24,
+        "LCF": 18,
+        "NOF": 4,
+        "NT": 1,
+        "OAL": 10036,
+        "RE": 0,
+        "SFDM": 10,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 24,
+        "shoulder-diameter": 10,
+        "shoulder-length": 21,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "ac68a312-2398-496b-a3ca-4605312ae4ec",
+      "post-process": {
+        "break-control": false,
+        "comment": "",
+        "diameter-offset": 1,
+        "length-offset": 1,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 1,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "",
+      "start-values": {
+        "presets": [
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "58cf052c-c0dc-4a8c-a0af-c77001bcf019",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 157.07963267948963,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "d19fbf8d-9ac7-4f86-8968-a8770e86f9e1",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 1",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 157.07963267948963,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "985d0b24-6aa3-4e06-afb7-fef9fd4a27dd",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 2",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 157.07963267948963,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "",
+      "stepover_mm": 6.0,
+      "stepdown_mm": 9.0
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "",
+      "expressions": {
+        "tool_diameter": "6 mm",
+        "tool_number": "2",
+        "tool_overallLength": "10036 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 24,
+        "LCF": 18,
+        "NOF": 4,
+        "NT": 1,
+        "OAL": 10036,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 24,
+        "shoulder-diameter": 6,
+        "shoulder-length": 21,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "6bb6c467-d49a-478d-84a5-45fb33879460",
+      "post-process": {
+        "break-control": false,
+        "comment": "",
+        "diameter-offset": 2,
+        "length-offset": 2,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 2,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "",
+      "start-values": {
+        "presets": [
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "58cf052c-c0dc-4a8c-a0af-c77001bcf019",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "d19fbf8d-9ac7-4f86-8968-a8770e86f9e1",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 1",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "985d0b24-6aa3-4e06-afb7-fef9fd4a27dd",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 2",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "",
+      "stepover_mm": 3.6,
+      "stepdown_mm": 9.0
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "",
+      "expressions": {
+        "tool_number": "3"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 24,
+        "LCF": 18,
+        "NOF": 4,
+        "NT": 1,
+        "OAL": 10036,
+        "RE": 0.75,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 24,
+        "shoulder-diameter": 6,
+        "shoulder-length": 21,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "2ef39471-9739-48b9-96ad-7067e25b07ac",
+      "post-process": {
+        "break-control": false,
+        "comment": "",
+        "diameter-offset": 3,
+        "length-offset": 3,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 3,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "",
+      "start-values": {
+        "presets": [
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "58cf052c-c0dc-4a8c-a0af-c77001bcf019",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "d19fbf8d-9ac7-4f86-8968-a8770e86f9e1",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 1",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          },
+          {
+            "description": "",
+            "f_n": 0.06666666666666667,
+            "f_z": 0.05,
+            "guid": "985d0b24-6aa3-4e06-afb7-fef9fd4a27dd",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "n_ramp": 5000,
+            "name": "Valor predefinido por defecto 2",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.3333333333333,
+            "v_f_ramp": 333.3333333333333,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "bull nose end mill",
+      "unit": "millimeters",
+      "vendor": "",
+      "stepover_mm": 3.6,
+      "stepdown_mm": 9.0
+    }
+  ],
+  "version": 36
+}
